@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>MY FIRST JavaScript EXERCISE</h2>
+<p>The below code is for how to put commas on lengthy numbers.</P>
+
+<p id ="demo"> </p>
+
+<script>
+
+
+function fN (num) {
+    return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")
+}
+
+document.getElementById("demo").innerHTML = fN(2437347423999);
+
+//alert(fN(853953885372665)); 
+
+
+</script>
+
+</body>
+</html>
