@@ -3,7 +3,7 @@
 <body>
 
 <h2>MY 2nd JavaScript EXERCISE</h2>
-<p>The below code is for how to validate only numbers.</P>
+<p>The below code is for how to validate only numbers . Input box doesn't allow alphabets or special charecters.</P>
 <!DOCTYPE html>
 <html>
 <body>
